@@ -315,7 +315,6 @@ a:hover {
     float: right;
     z-index: 1;
 }
-
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -649,6 +648,11 @@ p,a{
     font-family: "helvetica";
     font-weight: 400;
     color: black!important;
+}
+.strong{
+    font-family: "helvetica";
+    font-weight: 600;
+    color: black!important;  
 }
 .citation{
     font-style: italic;
@@ -1039,3 +1043,6 @@ h4 {
         text-align: center;
     }
 }
+*:focus {
+    border: gray dashed 1px!important;
+  }
